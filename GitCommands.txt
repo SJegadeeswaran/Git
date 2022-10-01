@@ -4,3 +4,12 @@ git add README.md
 git commit -m "first commit"
 git commit --amend -m "commit"
 git restore --staged filename
+
+git config --global http.proxy
+http://proxyUsername:proxyPassword@proxy.server.com:port
+https://itsmycode.com/configure-git-proxy/
+
+git branch --list
+
+To see the history of changes in the main branch, run the command git log -v
+To investigate the actual changes in the commit, you can run the command git log -p
