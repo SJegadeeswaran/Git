@@ -4,3 +4,11 @@ git add README.md
 git commit -m "first commit"
 git commit --amend -m "commit"
 git restore --staged filename
+
+git remote add upstream <URL>
+git fetch
+git pull upstream <branch-name>
+git push
+
+git config --global http.sslVerify false
+git config --system http.sslVerify false
